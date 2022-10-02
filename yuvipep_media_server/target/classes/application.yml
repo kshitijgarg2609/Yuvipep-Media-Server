@@ -1,0 +1,30 @@
+spring:
+  data:
+    mongodb:
+      repositories: 
+        enabled: true
+      database: yuvipep
+      host: ${SPRING_DATA_MONGODB_HOST:172.16.8.37}
+      port: 27017
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+video:
+  folder:
+    path: /opt/learning-app/videos/
+
+image:
+  folder:
+    path: /opt/learning-app/images/
+
+certificate:
+  folder:
+    path: /opt/learning-app/certificates
+
+amazons3:
+  aws-config:
+    access-key: AKIAQIFKFAU7VNT5CBTT
+    secret-key: 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
+    region: ap-south-1
