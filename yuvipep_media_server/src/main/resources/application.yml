@@ -25,6 +25,6 @@ certificate:
 
 amazons3:
   aws-config:
-    access-key: AKIAQIFKFAU7VNT5CBTT
-    secret-key: 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
-    region: ap-south-1
+    access-key: 
+    secret-key: 
+    region: 
